@@ -1,7 +1,4 @@
 ::-webkit-scrollbar{display:none;}
-html,body{
-  scroll-behavior: smooth;
-}
 
 /*main*/
 #main{
@@ -73,15 +70,6 @@ html,body{
 }
 #main .dot li:hover span{
   display: block;
-}
-#main .arrowUp{
-  position: fixed;
-  right: 60px;
-  bottom: 60px;
-  font-size: 40px;
-  color: #ccc;
-  cursor: pointer;
-  z-index: 30;
 }
 
 /*about*/
